@@ -37,7 +37,7 @@
 ![imagen](https://raw.githubusercontent.com/KarlLta/solucion-challenge-alura/150df8b5c2fdd0e4309360d9957f9eda47fe0d7f/pictures/pantallazo%20cuatro.png)
 
 
-> Hecho por el alumno Carlos Mauricio Moreno Prieto en agosto de 2024 para Alura Latam.
+> Hecho por el user *cammorenopr* de aluracursos, en agosto de 2024 para Alura Latam.
 
 
 
