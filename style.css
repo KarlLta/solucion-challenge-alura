@@ -1,0 +1,287 @@
+*{
+    background: #F3F5FC;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+.text_area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    resize: none;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+.text_area:focus{
+    outline: none;
+}
+
+.message{
+    background: white;
+    background-image: url("./pictures/Muñeco.png");
+    background-position: center 120px;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 90px;
+    padding-left: 20px;
+    position: absolute;
+    resize: none;
+}
+
+.message:focus {
+    outline: none;
+}
+
+.pulsadores{
+    display: flex;
+    margin-top: 18px;
+}
+
+.exclam{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.signo{
+    transform: scale(0.25);
+    width: 15%;
+    margin-right: -30px;
+    margin-left: -39px;
+}
+
+.puls-encriptando{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.puls-desencriptando{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.pulsaCopi{
+    display: flex;
+    margin-top: 105px;
+    margin-left: 35px;
+}
+.parrafo2{
+    display: flex;
+    margin-top: 158px;
+    margin-left: 18px;
+}
+
+.parrafo3{
+    display: flex;
+    margin-top: 60px;
+}
+
+.puls-copy{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.info{
+    color:#495057;
+    font-size: 18px;
+}
+
+
+.infoDos{
+    background-color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+}
+
+.infoTres{
+    background-color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+
+}
+
+@media (min-width: 376px) and (max-width: 768px) and (min-height: 934px) and (max-height: 1174px) {
+    .logo{
+        width: 35%;
+        margin-left: -13%;
+    }
+
+    .presentacion{
+        flex-direction: column;
+    }
+
+    main{
+        margin-left: 1px;
+    }
+
+    .message{
+        background-image: none;
+        height: 25%;
+        width: 94%; 
+        margin-left: 1%;
+        margin-top: 5%;
+    }
+
+    .parrafo2{
+        margin-top: -35%;
+        margin-left: 12%;
+    }
+
+    .parrafo3{
+        margin-top: 7.5%;
+        margin-left: 10%;
+    }
+
+    .puls-encriptando{
+        font-size: 16px;
+        width: 50%;
+    }
+    
+    .puls-desencriptando{
+        font-size: 16px;
+        margin-left: 24px;
+        width: 50%;
+    }
+
+    .puls-copy{
+        font-size: 16px;
+        margin-left: 10%;
+        margin-top: 50%;
+        width: 27%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 375px) and (min-height: 0px) and (max-height: 933px){
+    .logo{
+        width: 50%;
+        margin-left: -19%;
+    }
+
+    .presentacion{
+        flex-direction: column;
+    }
+
+    .pulsadores{
+        flex-direction: column;
+    }
+
+    main{
+        margin-left: 1px;
+    }
+
+    .message{
+        background-image: none;
+        height: 41%;
+        width: 90%; 
+        margin-left: -1%;
+        margin-top: 5%;
+    }
+
+    .parrafo2{
+        margin-top: -80%;
+        margin-left: -30%;
+
+    }
+
+    .infoDos{
+        width: 70%;
+        margin-left: 40%;
+    }
+    
+    .parrafo3{
+        margin-top: 20%;
+        margin-left: -38%;
+    }
+
+    .puls-encriptando{
+        font-size: 16px;
+        width: 100%;
+        margin-left: -1%;
+    }
+    
+    .puls-desencriptando{
+        font-size: 16px;
+        margin-top: 1%;
+        margin-left: -1%;
+        width: 100%;
+    }
+
+    .puls-copy{
+        font-size: 16px;
+        margin-left: -11%;
+        margin-top: 125%;
+        width: 95.6%;
+    }
+
+    .text_area{
+        font-size: 32px;
+        width: 77%;
+    }
+    
+    .signo{
+        transform: scale(0.25);
+        margin-right: -5%;
+        margin-left: -8%;
+    }
+
+    .info{
+        font-size: 12px;
+    }
+}
